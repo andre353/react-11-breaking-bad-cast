@@ -11,16 +11,16 @@ const CharacterItem = ({ item }) => {
             <h1>{item.name}</h1>
             <ul>
               <li>
-                <strong>Actor Name:</strong> {item.portrayed}
+                <strong>Актер:</strong> {item.portrayed}
               </li>
               <li>
-                <strong>Nickname:</strong> {item.nickname}
+                <strong>Роль:</strong> {item.nickname}
               </li>
               <li>
-                <strong>Birthday:</strong> {item.birthday}
+                <strong>Дата рождения:</strong> {item.birthday}
               </li>
               <li>
-                <strong>Status:</strong> {item.status}
+                <strong>Статус:</strong> {item.status}
               </li>
             </ul>
           </div>
